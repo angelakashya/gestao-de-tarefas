@@ -1,5 +1,9 @@
 package model
 
 type Usuario struct {
-	IdUsuario string
+	IdUsuario      string
+	NomeUsuario    string
+	Email          string
+	Senha          string
+	ListaDeTarefas []string
 }
